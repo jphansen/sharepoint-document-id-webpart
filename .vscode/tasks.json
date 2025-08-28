@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build SharePoint WebPart",
+			"type": "shell",
+			"command": "gulp",
+			"args": [
+				"bundle",
+				"--ship"
+			],
+			"group": "build",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"isBackground": false
+		}
+	]
+}
